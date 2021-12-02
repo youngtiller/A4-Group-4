@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent> ();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     void Update()
